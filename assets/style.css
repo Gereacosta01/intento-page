@@ -17,7 +17,7 @@ header {
     background-color: #1A5276 ;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 65px;
     padding: 0 30px;
@@ -28,7 +28,7 @@ header {
 .navbar,
 .navbar-list {
     display: flex;
-    gap: 35px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
 }
@@ -40,7 +40,7 @@ header {
 
 .navbar-list a {
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -53,8 +53,6 @@ main {
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    width: 100%;
-    gap: 150px;
 }
 
 #sect-prim {
@@ -74,7 +72,7 @@ main {
 }
 
 .div-text h1 {
-    font-size: 48px;
+    font-size: 58px;
     width: 80%;
     min-width: 500px;
     font-weight: 800;
@@ -101,16 +99,16 @@ main {
 
 .div-img {
     background-color: #1A5276;
-    width: 700px;
-    height: 400px;
-    border-radius: 1rem;
+    width: 750px;
+    height: 500px;
+    border-radius: 4%;
     justify-content: center;
 }
 
 .div-img img {
     display: flex;
-    width: 700px;
-    height: 400px;
+    width: 750px;
+    height: 500px;
     padding: 15px;
-    border-radius: 1rem;
+    border-radius: 5%;
 }
