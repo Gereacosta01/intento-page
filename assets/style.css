@@ -40,7 +40,7 @@ header {
 
 .navbar-list a {
     color: whitesmoke;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -111,4 +111,52 @@ main {
     height: 500px;
     padding: 15px;
     border-radius: 5%;
+}
+
+#info {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#sect-info h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-cards {
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #1F618D;
+    gap: 20px;
+}
+
+.info-cards img {
+    width: 50px;
+}
+
+.info-cards h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info-cards p {
+    font-size: 14px;
 }
